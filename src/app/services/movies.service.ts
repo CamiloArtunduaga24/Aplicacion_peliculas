@@ -26,7 +26,7 @@ export class MoviesService {
     const hoy = new Date();
     const ultimoDia = new Date(
       hoy.getFullYear(),
-      hoy.getMonth() + 1,
+      hoy.getMonth() + 2,
       0
     ).getDate();
     const mes = hoy.getMonth() + 1;
